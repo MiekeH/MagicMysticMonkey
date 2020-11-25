@@ -1,0 +1,143 @@
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 21px;
+  color: white;
+}
+
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 10px solid green;
+  padding: 30px;
+  margin: 20px;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+ul{
+	list-style-type: none;
+	text-align:left;
+	padding-right;
+}
+
+
+ul.a {
+  list-style-type: square;
+  text-align:left;
+	list-style-position: outside;
+}
+
+ul.b {
+  list-style-type: square;
+  text-align:left;
+	list-style-position: inside;
+}
+
+li {
+	color: darkgreen;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 30%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header2 {
+background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: darkgrey;
+}
+
+footer {
+  background-color: #777;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+body {background-color:#bebebe;}
+h1 {background-color:rgb(55,180,138); text-align:center; color:white;border:3px solid Violet;}
+h2 {text-align:center;color:white;background-color:darkgrey;}
+h3 {text-align:center;color:red;}
+h4 {text-align:center;color:black;}
+p {color:grey;}
+
+p {outline-color:yellow;}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+
+
+
+
+/*style of table */
+#t01 
+{
+border: 3px solid black;
+width:100%;
+border-spacing:2px;
+color:red;
+background-color: #f1f1c1;
+}
+th, td {
+text-align: left;
+padding:15px;
+}
+
+*style of table */
+#t02 
+{
+border: 3px solid red;
+width:100%;
+border-spacing:2px;
+color:red;
+background-color: none;
+}
+th, td {
+text-align: left;
+padding:15px;
+}
+
+
+
+
+
